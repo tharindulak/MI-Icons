@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Icons Display</title>
+    <style>
+        .headerContainer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .icon {
+            width: 50px;
+            height: 50px;
+        }
+        .preview {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            width: 132px;
+            height: 100px;
+            margin: 10px;
+            padding-top: 10px;
+            border: 1px solid #c1c1c1;
+            border-radius: 3px 3px 0 0;
+            background-color: #f3f3f3;
+        }
+        .inner {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+        }
+        .textWrapper {
+            width: 100%;
+            text-align: center;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="headerContainer">
+        <h1>WSO2 MI Icons</h1>
+        <div>
+            <input type="text" id="searchInput" placeholder="Search Icon">
+        </div>
+    </div>
+    <div>
+        <h2>1. Artifact Icons</h3>
+    </div>
+    <div class="container">
+        <div class="preview"><div class="inner"><img src="./MIICons/New/globe.svg" class="icon" alt="API.svg"></div><div class="textWrapper label">API.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/arrow-swap.svg" class="icon" alt="Proxy.svg"></div><div class="textWrapper label">Proxy.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/tasklist.svg" class="icon" alt="Task.svg"></div><div class="textWrapper label">Task.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/type-hierarchy.svg" class="icon" alt="Endpoint.svg"></div><div class="textWrapper label">Endpoint.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/list-ordered.svg" class="icon" alt="Registry.svg"></div><div class="textWrapper label">Registry.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/gear.svg" class="icon" alt="Message Processor.svg"></div><div class="textWrapper label">Message Processor.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/file.svg" class="icon" alt="Template.svg"></div><div class="textWrapper label">Template.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/database.svg" class="icon" alt="Message Store.svg"></div><div class="textWrapper label">Message Store.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/settings.svg" class="icon" alt="Local Entry.svg"></div><div class="textWrapper label">Local Entry.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/project.svg" class="icon" alt="Project.svg"></div><div class="textWrapper label">Project.svg</div></div>
+    </div>
+    <div>
+        <h2>2. Extension Icons</h3>
+    </div>
+    <div class="container">
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="Code.svg"></div><div class="textWrapper label">Code.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/design-view.svg" class="icon" alt="Diagram.svg"></div><div class="textWrapper label">Diagram.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/wand.svg" class="icon" alt="AI Panel.svg"></div><div class="textWrapper label">AI Panel.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/mi-icon.svg" class="icon" alt="MI Icon.svg"></div><div class="textWrapper label">MI Extension Icon.svg</div></div>
+    </div>
+    <div>
+        <h2>3. Mediator Icons</h2>
+    </div>
+    
+    <div>
+        <h3>3.1 Core</h3>
+    </div>
+    <div class="container">
+        <div class="preview"><div class="inner"><img src="./MIICons/New/CallMediator.svg" class="icon" alt="CallMediator.svg"></div><div class="textWrapper label">CallMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/LogMediator.svg" class="icon" alt="LogMediator.svg"></div><div class="textWrapper label">LogMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/PropertyMediator.svg" class="icon" alt="PropertyMediator.svg"></div><div class="textWrapper label">PropertyMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/DropMediator.svg" class="icon" alt="DropMediator.svg"></div><div class="textWrapper label">DropMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/CallMediator.svg" class="icon" alt="CallMediator.svg"></div><div class="textWrapper label">CallTemplateMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/Sequence.svg" class="icon" alt="Sequence.svg"></div><div class="textWrapper label">Sequence.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/PropertyGroupMediator.svg" class="icon" alt="PropertyGroupMediator.svg"></div><div class="textWrapper label">PropertyGroupMediator.svg</div></div>
+    </div>
+    <div>
+        <h3>3. 2 Transformation</h3>
+    </div>
+    <div class="container">
+        <div class="preview"><div class="inner"><img src="./MIICons/New/PayloadFactoryMediator.svg" class="icon" alt="PayloadFactoryMediator.svg"></div><div class="textWrapper label">PayloadFactoryMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/dataMapper.svg" class="icon" alt="dataMapper.svg"></div><div class="textWrapper label">dataMapper.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/XSLTMediator.svg" class="icon" alt="XSLTMediator.svg"></div><div class="textWrapper label">XSLTMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/EnrichMediator.svg" class="icon" alt="EnrichMediator.svg"></div><div class="textWrapper label">EnrichMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/HeaderMediator.svg" class="icon" alt="HeaderMediator.svg"></div><div class="textWrapper label">HeaderMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/JSONTransformMediator.svg" class="icon" alt="JSONTransformMediator.svg"></div><div class="textWrapper label">JSONTransformMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/FaultMediator.svg" class="icon" alt="FaultMediator.svg"></div><div class="textWrapper label">FaultMediator.svg</div></div>
+    </div>
+
+    <div>
+        <h3>3. 3 Flow Control</h3>
+    </div>
+    <div class="container">
+        <div class="preview"><div class="inner"><img src="./MIICons/New/FilterMediator.svg" class="icon" alt="FilterMediator.svg"></div><div class="textWrapper label">FilterMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/SwitchMediator.svg" class="icon" alt="SwitchMediator.svg"></div><div class="textWrapper label">SwitchMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/CloneMediator.svg" class="icon" alt="CloneMediator.svg"></div><div class="textWrapper label">CloneMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/IterateMediator.svg" class="icon" alt="IterateMediator.svg"></div><div class="textWrapper label">IterateMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/AggregateMediator.svg" class="icon" alt="AggregateMediator.svg"></div><div class="textWrapper label">AggregateMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/ForEachMediator.svg" class="icon" alt="ForEachMediator.svg"></div><div class="textWrapper label">ForEachMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/StoreMediator.svg" class="icon" alt="StoreMediator.svg"></div><div class="textWrapper label">StoreMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/ValidateMediator.svg" class="icon" alt="ValidateMediator.svg"></div><div class="textWrapper label">ValidateMediator.svg</div></div>
+
+    </div>
+
+    <div>
+        <h3>3. 4 Extension</h3>
+    </div>
+    <div class="container">
+        <div class="preview"><div class="inner"><img src="./MIICons/New/class-icon.svg" class="icon" alt="ClassMediator.svg"></div><div class="textWrapper label">ClassMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/ScriptMediator.svg" class="icon" alt="ScriptMediator.svg"></div><div class="textWrapper label">ScriptMediator.svg</div></div>
+    </div>
+
+    <div>
+        <h3>3. 5 QOS</h3>
+    </div>
+    <div class="container">
+        <div class="preview"><div class="inner"><img src="./MIICons/New/CacheMediator.svg" class="icon" alt="CacheMediator.svg"></div><div class="textWrapper label">CacheMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/EntitlementMediator.svg" class="icon" alt="EntitlementMediator.svg"></div><div class="textWrapper label">EntitlementMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/OAuthMediator.svg" class="icon" alt="OAuthMediator.svg"></div><div class="textWrapper label">OAuthMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/NTLMMediator.svg" class="icon" alt="NTLMMediator.svg"></div><div class="textWrapper label">NTLMMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/ThrottleMediator.svg" class="icon" alt="ThrottleMediator.svg"></div><div class="textWrapper label">ThrottleMediator.svg</div></div>
+        
+    </div>
+
+    <div>
+        <h3>3. 6 Data</h3>
+    </div> 
+    <div class="container">
+        <div class="preview"><div class="inner"><img src="./MIICons/New/DataServiceCallMediator.svg" class="icon" alt="DataServiceCallMediator.svg"></div><div class="textWrapper label">DataServiceCallMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/DBLookupMediator.svg" class="icon" alt="DBLookupMediator.svg"></div><div class="textWrapper label">DBLookupMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/DBReportMediator.svg" class="icon" alt="DBReportMediator.svg"></div><div class="textWrapper label">DBReportMediator.svg</div></div>
+
+    </div>
+    
+    <div>
+        <h3>3. 7 Other (Deprecated)</h3>
+    </div>
+    <div class="container">
+        <div class="preview"><div class="inner"><img src="./MIICons/New/APIResource.svg" class="icon" alt="APIResource.svg"></div><div class="textWrapper label">APIResource.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/BAMMediator.svg" class="icon" alt="BAMMediator.svg"></div><div class="textWrapper label">BAMMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/BeanMediator.svg" class="icon" alt="BeanMediator.svg"></div><div class="textWrapper label">BeanMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/BuilderMediator.svg" class="icon" alt="BuilderMediator.svg"></div><div class="textWrapper label">BuilderMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/CallMediator.svg" class="icon" alt="CallMediator.svg"></div><div class="textWrapper label">CallMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/CalloutMediator.svg" class="icon" alt="CalloutMediator.svg"></div><div class="textWrapper label">CalloutMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/CommandMediator.svg" class="icon" alt="CommandMediator.svg"></div><div class="textWrapper label">CommandMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/ConditionalRouterMediator.svg" class="icon" alt="ConditionalRouterMediator.svg"></div><div class="textWrapper label">ConditionalRouterMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/Default.svg" class="icon" alt="Default.svg"></div><div class="textWrapper label">Default.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/EJBMediator.svg" class="icon" alt="EJBMediator.svg"></div><div class="textWrapper label">EJBMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/EnqueueMediator.svg" class="icon" alt="EnqueueMediator.svg"></div><div class="textWrapper label">EnqueueMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/EventMediator.svg" class="icon" alt="EventMediator.svg"></div><div class="textWrapper label">EventMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/FastXSLTMediator.svg" class="icon" alt="FastXSLTMediator.svg"></div><div class="textWrapper label">FastXSLTMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/FilterMediator.svg" class="icon" alt="FilterMediator.svg"></div><div class="textWrapper label">FilterMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/LoopBackMediator.svg" class="icon" alt="LoopBackMediator.svg"></div><div class="textWrapper label">LoopBackMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/NamedEndpoint.svg" class="icon" alt="NamedEndpoint.svg"></div><div class="textWrapper label">NamedEndpoint.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/ProxyService.svg" class="icon" alt="ProxyService.svg"></div><div class="textWrapper label">ProxyService.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/PublishEventMediator.svg" class="icon" alt="PublishEventMediator.svg"></div><div class="textWrapper label">PublishEventMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/RespondMediator.svg" class="icon" alt="RespondMediator.svg"></div><div class="textWrapper label">RespondMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/RuleMediator.svg" class="icon" alt="RuleMediator.svg"></div><div class="textWrapper label">RuleMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/SendMediator.svg" class="icon" alt="SendMediator.svg"></div><div class="textWrapper label">SendMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/SmooksMediator.svg" class="icon" alt="SmooksMediator.svg"></div><div class="textWrapper label">SmooksMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/SpringMediator.svg" class="icon" alt="SpringMediator.svg"></div><div class="textWrapper label">SpringMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/TransactionMediator.svg" class="icon" alt="TransactionMediator.svg"></div><div class="textWrapper label">TransactionMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/URLRewriteMediator.svg" class="icon" alt="URLRewriteMediator.svg"></div><div class="textWrapper label">URLRewriteMediator.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/XQueryMediator.svg" class="icon" alt="XQueryMediator.svg"></div><div class="textWrapper label">XQueryMediator.svg</div></div>
+    </div>
+
+    <div>
+        <h2>4. Inbound Endpoint</h2>
+    </div>
+    <div class="container">
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="HTTP.svg"></div><div class="textWrapper label">HTTP.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="HTTPS.svg"></div><div class="textWrapper label">HTTPS.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="File.svg"></div><div class="textWrapper label">File.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="JMS.svg"></div><div class="textWrapper label">JMS.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="KFKA.svg"></div><div class="textWrapper label">KFKA.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="RABBITMQ.svg"></div><div class="textWrapper label">RABBITMQ.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="HL7.svg"></div><div class="textWrapper label">HL7.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="MQTT.svg"></div><div class="textWrapper label">MQTT.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="WS.svg"></div><div class="textWrapper label">WS.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="WSO2_MB.svg"></div><div class="textWrapper label">WSO2_MB.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="WSS.svg"></div><div class="textWrapper label">WSS.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="CXF_WS_RM.svg"></div><div class="textWrapper label">CXF_WS_RM.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="Feed.svg"></div><div class="textWrapper label">Feed.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="Feed.svg"></div><div class="textWrapper label">Feed.svg</div></div>
+    </div>
+
+    <div>
+        <h2>5. Message Processor</h2>
+    </div>
+    <div class="container">
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="Message Sampling Processor.svg"></div><div class="textWrapper label">Message Sampling Processor.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="Scheduled Message Forwarding Processor.svg"></div><div class="textWrapper label">Scheduled Message Forwarding Processor.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="Scheduled Failover Message Forwarding Processor.svg"></div><div class="textWrapper label">Scheduled Failover Message Forwarding Processor.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="Custom Message Processor.svg"></div><div class="textWrapper label">Custom Message Processor.svg</div></div>
+    </div>
+
+    <div>
+        <h2>6. Endpoint</h2>
+    </div>
+    <div class="container">
+        <div class="preview"><div class="inner"><img src="./MIICons/New/AddressEndPoint.svg" class="icon" alt="Address Endpoint.svg"></div><div class="textWrapper label">Address Endpoint.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/DefaultEndPoint.svg" class="icon" alt="Default Endpoint.svg"></div><div class="textWrapper label">Default Endpoint.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="Failover Endpoint.svg"></div><div class="textWrapper label">Failover Endpoint.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/HTTPEndpoint.svg" class="icon" alt="HTTP Endpoint.svg"></div><div class="textWrapper label">HTTP Endpoint.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/LoadBalanceEndPoint.svg" class="icon" alt="Load Balance Endpoint.svg"></div><div class="textWrapper label">Load Balance Endpoint.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="Recipient List Endpoint.svg"></div><div class="textWrapper label">Recipient List Endpoint.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="Template Endpoint.svg"></div><div class="textWrapper label">Template Endpoint.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="WSDL Endpoint.svg"></div><div class="textWrapper label">WSDL Endpoint.svg</div></div>
+    </div>
+
+    <div>
+        <h2>7. Temporary artifact</h2>
+    </div>
+    <div class="container">
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="Address Endpoint Template.svg"></div><div class="textWrapper label">Address Endpoint Template.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="Default Endpoint Template.svg"></div><div class="textWrapper label">Default Endpoint Template.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="HTTP Endpoint Template.svg"></div><div class="textWrapper label">HTTP Endpoint Template.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="WSDL Endpoint Template.svg"></div><div class="textWrapper label">WSDL Endpoint Template.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="Sequence Template.svg"></div><div class="textWrapper label">Sequence Template.svg</div></div>
+    </div>
+
+    <div>
+        <h2>8. Local Entry</h2>
+    </div>
+    <div class="container">
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="In-Line Text Entry.svg"></div><div class="textWrapper label">In-Line Text Entry.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="In-Line XML Entry.svg"></div><div class="textWrapper label">In-Line XML Entry.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="Source URL Entry.svg"></div><div class="textWrapper label">Source URL Entry.svg</div></div>
+    </div>
+
+    <div>
+        <h2>9. Message Store</h2>
+    </div>
+    <div class="container">
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="In Memory Message Storey.svg"></div><div class="textWrapper label">In Memory Message Store.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="RabbitMQ Message Store.svg"></div><div class="textWrapper label">RabbitMQ Message Store.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="JMS Message Store.svg"></div><div class="textWrapper label">JMS Message Store.svg</div></div>        
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="Custom Message Store.svg"></div><div class="textWrapper label">Custom Message Store.svg</div></div>        
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="Resequence Message Store.svg"></div><div class="textWrapper label">Resequence Message Store.svg</div></div>        
+        <div class="preview"><div class="inner"><img src="./MIICons/New/code.svg" class="icon" alt="WSO2 MB Message Store.svg"></div><div class="textWrapper label">WSO2 MB Message Store.svg</div></div>        
+    </div>
+
+    <div>
+        <h2>10. AI</h2>
+    </div>
+    <div class="container">
+        <div class="preview"><div class="inner"><img src="./MIICons/New/account.svg" class="icon" alt="User.svg"></div><div class="textWrapper label">User.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/hubot.svg" class="icon" alt="MI Copilot.svg"></div><div class="textWrapper label">MI Copilot.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/wand.svg" class="icon" alt="AI Panel Icon.svg"></div><div class="textWrapper label">AI Panel Icon.svg</div></div>       
+    </div>
+
+    <div>
+        <h2>11. Artifact Operation</h2>
+    </div>
+    <div class="container">
+        <div class="preview"><div class="inner"><img src="./MIICons/New/combine.svg" class="icon" alt="Build.svg"></div><div class="textWrapper label">Build.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/export.svg" class="icon" alt="Export.svg"></div><div class="textWrapper label">Export.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/clear-all.svg" class="icon" alt="Clear.svg"></div><div class="textWrapper label">Clear.svg</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/New/sign-out.svg" class="icon" alt="Logout.svg"></div><div class="textWrapper label">Logout.svg</div></div>
+    </div>
+
+    <div>
+        <h2>12. Connectors</h2>
+    </div>
+    <div class="container">
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/activecampaign.gif" class="icon" alt="activecampaign.gif"></div><div class="textWrapper label">activecampaign.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/activecollab.gif" class="icon" alt="activecollab.gif"></div><div class="textWrapper label">activecollab.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/agilezen.gif" class="icon" alt="agilezen.gif"></div><div class="textWrapper label">agilezen.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/amazondynamodb.png" class="icon" alt="amazondynamodb.png"></div><div class="textWrapper label">amazondynamodb.png</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/amazonlambda.gif" class="icon" alt="amazonlambda.gif"></div><div class="textWrapper label">amazonlambda.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/amazons3.png" class="icon" alt="amazons3.png"></div><div class="textWrapper label">amazons3.png</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/amazonses.gif" class="icon" alt="amazonses.gif"></div><div class="textWrapper label">amazonses.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/amazonsimpledb.gif" class="icon" alt="amazonsimpledb.gif"></div><div class="textWrapper label">amazonsimpledb.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/amazonsimplenotification.gif" class="icon" alt="amazonsimplenotification.gif"></div><div class="textWrapper label">amazonsimplenotification.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/amazonsimplequeueservice.png" class="icon" alt="amazonsimplequeueservice.png"></div><div class="textWrapper label">amazonsimplequeueservice.png</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/applepushnotification.gif" class="icon" alt="applepushnotification.gif"></div><div class="textWrapper label">applepushnotification.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/as400pcml.gif" class="icon" alt="as400pcml.gif"></div><div class="textWrapper label">as400pcml.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/asana.gif" class="icon" alt="asana.gif"></div><div class="textWrapper label">asana.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/basecamp.gif" class="icon" alt="basecamp.gif"></div><div class="textWrapper label">basecamp.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/basecrm.gif" class="icon" alt="basecrm.gif"></div><div class="textWrapper label">basecrm.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/beetrack.gif" class="icon" alt="beetrack.gif"></div><div class="textWrapper label">beetrack.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/bigquery.png" class="icon" alt="bigquery.png"></div><div class="textWrapper label">bigquery.png</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/billiving.gif" class="icon" alt="billiving.gif"></div><div class="textWrapper label">billiving.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/billomat.gif" class="icon" alt="billomat.gif"></div><div class="textWrapper label">billomat.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/bitbucket.gif" class="icon" alt="bitbucket.gif"></div><div class="textWrapper label">bitbucket.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/bitly.gif" class="icon" alt="bitly.gif"></div><div class="textWrapper label">bitly.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/box.gif" class="icon" alt="box.gif"></div><div class="textWrapper label">box.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/braintree.gif" class="icon" alt="braintree.gif"></div><div class="textWrapper label">braintree.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/bugherd.gif" class="icon" alt="bugherd.gif"></div><div class="textWrapper label">bugherd.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/bugzilla.gif" class="icon" alt="bugzilla.gif"></div><div class="textWrapper label">bugzilla.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/callrail.gif" class="icon" alt="callrail.gif"></div><div class="textWrapper label">callrail.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/campaignmonitor.gif" class="icon" alt="campaignmonitor.gif"></div><div class="textWrapper label">campaignmonitor.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/canvas.gif" class="icon" alt="canvas.gif"></div><div class="textWrapper label">canvas.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/capsulecrm.gif" class="icon" alt="capsulecrm.gif"></div><div class="textWrapper label">capsulecrm.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/cashboard.gif" class="icon" alt="cashboard.gif"></div><div class="textWrapper label">cashboard.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/ceridiandayforceconnector.gif" class="icon" alt="ceridiandayforceconnector.gif"></div><div class="textWrapper label">ceridiandayforceconnector.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/cerner.gif" class="icon" alt="cerner.gif"></div><div class="textWrapper label">cerner.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/chargebee.gif" class="icon" alt="chargebee.gif"></div><div class="textWrapper label">chargebee.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/clevertimcrm.gif" class="icon" alt="clevertimcrm.gif"></div><div class="textWrapper label">clevertimcrm.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/cliniko.gif" class="icon" alt="cliniko.gif"></div><div class="textWrapper label">cliniko.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/clio.gif" class="icon" alt="clio.gif"></div><div class="textWrapper label">clio.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/companieshouse.gif" class="icon" alt="companieshouse.gif"></div><div class="textWrapper label">companieshouse.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/concur.gif" class="icon" alt="concur.gif"></div><div class="textWrapper label">concur.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/confluence.gif" class="icon" alt="confluence.gif"></div><div class="textWrapper label">confluence.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/constantcontact.gif" class="icon" alt="constantcontact.gif"></div><div class="textWrapper label">constantcontact.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/contentmanagementinteroperabilityservices.gif" class="icon" alt="contentmanagementinteroperabilityservices.gif"></div><div class="textWrapper label">contentmanagementinteroperabilityservices.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/creatioconnector.png" class="icon" alt="creatioconnector.png"></div><div class="textWrapper label">creatioconnector.png</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/csvmodule.png" class="icon" alt="csvmodule.png"></div><div class="textWrapper label">csvmodule.png</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/delicious.gif" class="icon" alt="delicious.gif"></div><div class="textWrapper label">delicious.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/deputy.gif" class="icon" alt="deputy.gif"></div><div class="textWrapper label">deputy.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/disqus.gif" class="icon" alt="disqus.gif"></div><div class="textWrapper label">disqus.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/documentum.png" class="icon" alt="documentum.png"></div><div class="textWrapper label">documentum.png</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/docusign.gif" class="icon" alt="docusign.gif"></div><div class="textWrapper label">docusign.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/dropbox.gif" class="icon" alt="dropbox.gif"></div><div class="textWrapper label">dropbox.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/drupal.gif" class="icon" alt="drupal.gif"></div><div class="textWrapper label">drupal.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/ebay.gif" class="icon" alt="ebay.gif"></div><div class="textWrapper label">ebay.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/ejb-2.0.gif" class="icon" alt="ejb-2.0.gif"></div><div class="textWrapper label">ejb-2.0.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/elasticsearch.png" class="icon" alt="elasticsearch.png"></div><div class="textWrapper label">elasticsearch.png</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/eloqua.gif" class="icon" alt="eloqua.gif"></div><div class="textWrapper label">eloqua.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/eloquastandard.png" class="icon" alt="eloquastandard.png"></div><div class="textWrapper label">eloquastandard.png</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/emailconnector.png" class="icon" alt="emailconnector.png"></div><div class="textWrapper label">emailconnector.png</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/epic.gif" class="icon" alt="epic.gif"></div><div class="textWrapper label">epic.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/ethereum.gif" class="icon" alt="ethereum.gif"></div><div class="textWrapper label">ethereum.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/eventbrite.gif" class="icon" alt="eventbrite.gif"></div><div class="textWrapper label">eventbrite.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/evernote.gif" class="icon" alt="evernote.gif"></div><div class="textWrapper label">evernote.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/ews.gif" class="icon" alt="ews.gif"></div><div class="textWrapper label">ews.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/exacttarget.gif" class="icon" alt="exacttarget.gif"></div><div class="textWrapper label">exacttarget.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/facebook.gif" class="icon" alt="facebook.gif"></div><div class="textWrapper label">facebook.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/feed.gif" class="icon" alt="feed.gif"></div><div class="textWrapper label">feed.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/fhir.gif" class="icon" alt="fhir.gif"></div><div class="textWrapper label">fhir.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/file.gif" class="icon" alt="file.gif"></div><div class="textWrapper label">file.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/file.gif" class="icon" alt="file.png"></div><div class="textWrapper label">file.png</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/flickr.gif" class="icon" alt="flickr.gif"></div><div class="textWrapper label">flickr.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/formstack.gif" class="icon" alt="formstack.gif"></div><div class="textWrapper label">formstack.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/foursquare.gif" class="icon" alt="foursquare.gif"></div><div class="textWrapper label">foursquare.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/freeagent.gif" class="icon" alt="freeagent.gif"></div><div class="textWrapper label">freeagent.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/freshbooks.gif" class="icon" alt="freshbooks.gif"></div><div class="textWrapper label">freshbooks.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/freshdesk.gif" class="icon" alt="freshdesk.gif"></div><div class="textWrapper label">freshdesk.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/geonames.gif" class="icon" alt="geonames.gif"></div><div class="textWrapper label">geonames.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/github.gif" class="icon" alt="github.gif"></div><div class="textWrapper label">github.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/gmail.gif" class="icon" alt="gmail.gif"></div><div class="textWrapper label">gmail.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/googleanalytics.gif" class="icon" alt="googleanalytics.gif"></div><div class="textWrapper label">googleanalytics.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/googleblogger.gif" class="icon" alt="googleblogger.gif"></div><div class="textWrapper label">googleblogger.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/googlecalendar.gif" class="icon" alt="googlecalendar.gif"></div><div class="textWrapper label">googlecalendar.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/googlecontacts.gif" class="icon" alt="googlecontacts.gif"></div><div class="textWrapper label">googlecontacts.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/googlecustomsearch.gif" class="icon" alt="googlecustomsearch.gif"></div><div class="textWrapper label">googlecustomsearch.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/googledriverest.gif" class="icon" alt="googledriverest.gif"></div><div class="textWrapper label">googledriverest.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/googlefirebase.png" class="icon" alt="googlefirebase.png"></div><div class="textWrapper label">googlefirebase.png</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/googleplus.gif" class="icon" alt="googleplus.gif"></div><div class="textWrapper label">googleplus.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/googleprediction.gif" class="icon" alt="googleprediction.gif"></div><div class="textWrapper label">googleprediction.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/googlepub-sub.gif" class="icon" alt="googlepub-sub.gif"></div><div class="textWrapper label">googlepub-sub.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/googlespreadsheet.png" class="icon" alt="googlespreadsheet.png"></div><div class="textWrapper label">googlespreadsheet.png</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/googletasks.gif" class="icon" alt="googletasks.gif"></div><div class="textWrapper label">googletasks.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/gototraining.gif" class="icon" alt="gototraining.gif"></div><div class="textWrapper label">gototraining.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/gotowebinar.gif" class="icon" alt="gotowebinar.gif"></div><div class="textWrapper label">gotowebinar.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/hubspot.gif" class="icon" alt="hubspot.gif"></div><div class="textWrapper label">hubspot.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/insightly.gif" class="icon" alt="insightly.gif"></div><div class="textWrapper label">insightly.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/instagram.gif" class="icon" alt="instagram.gif"></div><div class="textWrapper label">instagram.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/iso8583.gif" class="icon" alt="iso8583.gif"></div><div class="textWrapper label">iso8583.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/jenkins.gif" class="icon" alt="jenkins.gif"></div><div class="textWrapper label">jenkins.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/jira.gif" class="icon" alt="jira.gif"></div><div class="textWrapper label">jira.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/jms.png" class="icon" alt="jms.png"></div><div class="textWrapper label">jms.png</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/jotform.gif" class="icon" alt="jotform.gif"></div><div class="textWrapper label">jotform.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/kafka.png" class="icon" alt="kafka.png"></div><div class="textWrapper label">kafka.png</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/killbill.gif" class="icon" alt="killbill.gif"></div><div class="textWrapper label">killbill.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/ldap.png" class="icon" alt="ldap.png"></div><div class="textWrapper label">ldap.png</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/linkedin.gif" class="icon" alt="linkedin.gif"></div><div class="textWrapper label">linkedin.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/livechat.gif" class="icon" alt="livechat.gif"></div><div class="textWrapper label">livechat.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/loggly.gif" class="icon" alt="loggly.gif"></div><div class="textWrapper label">loggly.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/magento.gif" class="icon" alt="magento.gif"></div><div class="textWrapper label">magento.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/mailchimp.gif" class="icon" alt="mailchimp.gif"></div><div class="textWrapper label">mailchimp.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/marketo.gif" class="icon" alt="marketo.gif"></div><div class="textWrapper label">marketo.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/microsoftazurestorage.gif" class="icon" alt="microsoftazurestorage.gif"></div><div class="textWrapper label">microsoftazurestorage.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/microsoftdynamics365.gif" class="icon" alt="microsoftdynamics365.gif"></div><div class="textWrapper label">microsoftdynamics365.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/mongodb.png" class="icon" alt="mongodb.png"></div><div class="textWrapper label">mongodb.png</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/nest.gif" class="icon" alt="nest.gif"></div><div class="textWrapper label">nest.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/netsuite.gif" class="icon" alt="netsuite.gif"></div><div class="textWrapper label">netsuite.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/nexmo.gif" class="icon" alt="nexmo.gif"></div><div class="textWrapper label">nexmo.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/nimble.gif" class="icon" alt="nimble.gif"></div><div class="textWrapper label">nimble.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/openweathermap.gif" class="icon" alt="openweathermap.gif"></div><div class="textWrapper label">openweathermap.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/outlookmail.png" class="icon" alt="outlookmail.png"></div><div class="textWrapper label">outlookmail.png</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/pagerduty.gif" class="icon" alt="pagerduty.gif"></div><div class="textWrapper label">pagerduty.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/pardot.gif" class="icon" alt="pardot.gif"></div><div class="textWrapper label">pardot.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/paypal.gif" class="icon" alt="paypal.gif"></div><div class="textWrapper label">paypal.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/peoplehr.gif" class="icon" alt="peoplehr.gif"></div><div class="textWrapper label">peoplehr.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/pipedrive.gif" class="icon" alt="pipedrive.gif"></div><div class="textWrapper label">pipedrive.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/pipelinedeals.gif" class="icon" alt="pipelinedeals.gif"></div><div class="textWrapper label">pipelinedeals.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/pivotaltracker.gif" class="icon" alt="mailchimp.gif"></div><div class="textWrapper label">pivotaltracker.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/planyo.gif" class="icon" alt="planyo.gif"></div><div class="textWrapper label">planyo.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/podio.gif" class="icon" alt="podio.gif"></div><div class="textWrapper label">podio.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/postcodelookup.gif" class="icon" alt="postcodelookup.gif"></div><div class="textWrapper label">postcodelookup.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/powerbi.gif" class="icon" alt="powerbi.gif"></div><div class="textWrapper label">powerbi.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/printavo.gif" class="icon" alt="printavo.gif"></div><div class="textWrapper label">printavo.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/prodpad.gif" class="icon" alt="prodpad.gif"></div><div class="textWrapper label">prodpad.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/producteev.gif" class="icon" alt="producteev.gif"></div><div class="textWrapper label">producteev.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/proworkflow.gif" class="icon" alt="proworkflow.gif"></div><div class="textWrapper label">proworkflow.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/quickbooks.gif" class="icon" alt="quickbooks.gif"></div><div class="textWrapper label">quickbooks.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/recurly.gif" class="icon" alt="recurly.gif"></div><div class="textWrapper label">recurly.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/reddit.gif" class="icon" alt="reddit.gif"></div><div class="textWrapper label">reddit.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/redis.gif" class="icon" alt="redis.gif"></div><div class="textWrapper label">redis.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/redmine.gif" class="icon" alt="redmine.gif"></div><div class="textWrapper label">redmine.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/reliablemessage.png" class="icon" alt="reliablemessage.png"></div><div class="textWrapper label">reliablemessage.png</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/salesforce.png" class="icon" alt="salesforce.png"></div><div class="textWrapper label">salesforce.png</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/ronin.gif" class="icon" alt="ronin.gif"></div><div class="textWrapper label">ronin.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/salesforcebulk.png" class="icon" alt="salesforcebulk.png"></div><div class="textWrapper label">salesforcebulk.png</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/salesforcebulkapiv2.png" class="icon" alt="salesforcebulkapiv2.png"></div><div class="textWrapper label">salesforcebulkapiv2.png</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/salesforcedesk.gif" class="icon" alt="salesforcedesk.gif"></div><div class="textWrapper label">salesforcedesk.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/salesforcerest.png" class="icon" alt="salesforcerest.png"></div><div class="textWrapper label">salesforcerest.png</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/salesforcewaveanalytics.gif" class="icon" alt="salesforcewaveanalytics.gif"></div><div class="textWrapper label">salesforcewaveanalytics.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/sapbydesign.gif" class="icon" alt="sapbydesign.gif"></div><div class="textWrapper label">sapbydesign.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/sendgrid.gif" class="icon" alt="sendgrid.gif"></div><div class="textWrapper label">sendgrid.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/sendloop.gif" class="icon" alt="sendloop.gif"></div><div class="textWrapper label">sendloop.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/servicenow.gif" class="icon" alt="servicenow.gif"></div><div class="textWrapper label">servicenow.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/sharepoint.gif" class="icon" alt="sharepoint.gif"></div><div class="textWrapper label">sharepoint.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/shippo.gif" class="icon" alt="shippo.gif"></div><div class="textWrapper label">shippo.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/shopify.gif" class="icon" alt="shopify.gif"></div><div class="textWrapper label">shopify.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/simplenote.gif" class="icon" alt="simplenote.gif"></div><div class="textWrapper label">simplenote.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/sirportly.gif" class="icon" alt="sirportly.gif"></div><div class="textWrapper label">sirportly.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/slack.gif" class="icon" alt="slack.gif"></div><div class="textWrapper label">slack.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/slideshare.gif" class="icon" alt="slideshare.gif"></div><div class="textWrapper label">slideshare.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/smpp.png" class="icon" alt="smpp.png"></div><div class="textWrapper label">smpp.png</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/snmp.gif" class="icon" alt="snmp.gif"></div><div class="textWrapper label">snmp.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/snowflake.png" class="icon" alt="snowflake.png"></div><div class="textWrapper label">snowflake.png</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/splunk.gif" class="icon" alt="splunk.gif"></div><div class="textWrapper label">splunk.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/spotify.gif" class="icon" alt="spotify.gif"></div><div class="textWrapper label">spotify.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/stackexchange.gif" class="icon" alt="stackexchange.gif"></div><div class="textWrapper label">stackexchange.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/stripe.gif" class="icon" alt="stripe.gif"></div><div class="textWrapper label">stripe.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/stubhub.gif" class="icon" alt="stubhub.gif"></div><div class="textWrapper label">stubhub.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/sugarcrm.gif" class="icon" alt="sugarcrm.gif"></div><div class="textWrapper label">sugarcrm.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/supportbee.gif" class="icon" alt="supportbee.gif"></div><div class="textWrapper label">supportbee.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/surveygizmo.gif" class="icon" alt="surveygizmo.gif"></div><div class="textWrapper label">surveygizmo.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/surveymonkey.gif" class="icon" alt="surveymonkey.gif"></div><div class="textWrapper label">surveymonkey.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/teamwork.gif" class="icon" alt="teamwork.gif"></div><div class="textWrapper label">teamwork.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/tradegecko.gif" class="icon" alt="tradegecko.gif"></div><div class="textWrapper label">tradegecko.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/tsheets.gif" class="icon" alt="tsheets.gif"></div><div class="textWrapper label">tsheets.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/twilio.gif" class="icon" alt="twilio.gif"></div><div class="textWrapper label">twilio.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/twiliorest.gif" class="icon" alt="twiliorest.gif"></div><div class="textWrapper label">twiliorest.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/twitter.gif" class="icon" alt="twitter.gif"></div><div class="textWrapper label">twitter.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/utilitymodule.png" class="icon" alt="utilitymodule.png"></div><div class="textWrapper label">utilitymodule.png</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/vend.gif" class="icon" alt="vend.gif"></div><div class="textWrapper label">vend.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/verticalresponse.gif" class="icon" alt="verticalresponse.gif"></div><div class="textWrapper label">verticalresponse.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/viber.gif" class="icon" alt="viber.gif"></div><div class="textWrapper label">viber.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/wordpress.gif" class="icon" alt="wordpress.gif"></div><div class="textWrapper label">wordpress.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/workday.gif" class="icon" alt="workday.gif"></div><div class="textWrapper label">workday.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/wunderlist.gif" class="icon" alt="wunderlist.gif"></div><div class="textWrapper label">wunderlist.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/xero.gif" class="icon" alt="xero.gif"></div><div class="textWrapper label">xero.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/yammer.gif" class="icon" alt="yammer.gif"></div><div class="textWrapper label">yammer.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/yelp.gif" class="icon" alt="yelp.gif"></div><div class="textWrapper label">yelp.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/zendesk.gif" class="icon" alt="zendesk.gif"></div><div class="textWrapper label">zendesk.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/zohobooks.gif" class="icon" alt="zohobooks.gif"></div><div class="textWrapper label">zohobooks.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/zohocrm.gif" class="icon" alt="zohocrm.gif"></div><div class="textWrapper label">zohocrm.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/zohopeople.gif" class="icon" alt="zohopeople.gif"></div><div class="textWrapper label">zohopeople.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/zohorecruit.gif" class="icon" alt="zohorecruit.gif"></div><div class="textWrapper label">zohorecruit.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/zuora.gif" class="icon" alt="zuora.gif"></div><div class="textWrapper label">zuora.gif</div></div>
+        <div class="preview"><div class="inner"><img src="./MIICons/connectors/zuorasoap.gif" class="icon" alt="zuorasoap.gif"></div><div class="textWrapper label">zuorasoap.gif</div></div>
+
+    </div>
+    
+    <script>
+        // JavaScript to handle the label filtering
+        document.getElementById('searchInput').addEventListener('input', function () {
+            const searchText = this.value.toLowerCase();
+            const previews = document.querySelectorAll('.preview');
+
+            previews.forEach(function (preview) {
+                const label = preview.querySelector('.label');
+                const labelText = label.textContent.toLowerCase();
+
+                if (labelText.includes(searchText)) {
+                    preview.style.display = 'flex';
+                } else {
+                    preview.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
