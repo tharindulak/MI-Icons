@@ -1,0 +1,35 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1152 768" width="1152" height="768">
+	<title>failover-endpoint-ai</title>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #955aa4 } 
+		.t1 { font-size: 12px;fill: #9b9c9f;font-weight: 400;font-family: "Roboto-Regular", "Roboto" } 
+		.s2 { fill: none;stroke: #fefefe;stroke-miterlimit:10;stroke-width: 24 } 
+		.s3 { fill: #fefefe } 
+		.s4 { fill: #ef554e } 
+	</style>
+	<g id="Layer 1">
+		<path id="&lt;Path&gt;" class="s0" d="m1152 768h-1152v-539.1h1152z"/>
+		<text id="Failover
+" style="transform: matrix(16,0,0,16,235.309,181.308)" >
+			<tspan x="0" y="0" class="t1">Failover
+</tspan>
+		</text>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s2" d="m711.2 457.5h-187.5v-127.1h187.5z"/>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s2" d="m551.4 428.6l34.5-33.4-33.9-32.9"/>
+				<path id="&lt;Path&gt;" class="s2" d="m585.9 395.2l-123.4 0.2"/>
+			</g>
+			<path id="&lt;Path&gt;" class="s3" d="m686.7 425.6h-72.2v-63.3h72.2z"/>
+			<path id="&lt;Path&gt;" class="s2" d="m801 651.5h-187.4v-127.1h187.4z"/>
+			<path id="&lt;Path&gt;" class="s3" d="m776.5 619.6h-72.1v-63.3h72.1z"/>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s2" d="m640 621.1l33.4-33.4-32.9-32.9"/>
+				<path id="&lt;Path&gt;" class="s2" d="m673.4 587.7l-342.9 0.7"/>
+			</g>
+			<path id="&lt;Path&gt;" class="s2" d="m473.6 395.3v192.1"/>
+			<path id="&lt;Path&gt;" class="s4" d="m769 588.1c0 15.7-12.8 28.5-28.5 28.5-15.8 0-28.6-12.8-28.6-28.5 0-15.8 12.8-28.6 28.6-28.6 15.7 0 28.5 12.8 28.5 28.6z"/>
+		</g>
+	</g>
+</svg>

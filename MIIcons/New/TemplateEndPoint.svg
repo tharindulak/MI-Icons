@@ -1,0 +1,28 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1152 768" width="1152" height="768">
+	<title>template-endpoint-ai</title>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #955aa4 } 
+		.t1 { font-size: 11px;fill: #9b9c9f;font-weight: 400;font-family: "Roboto-Regular", "Roboto" } 
+		.s2 { fill: none;stroke: #fefefe;stroke-miterlimit:10;stroke-width: 24 } 
+		.s3 { fill: none;stroke: #fefefe;stroke-miterlimit:10;stroke-width: 32 } 
+		.s4 { fill: #fefefe } 
+	</style>
+	<g id="Layer 1">
+		<path id="&lt;Path&gt;" class="s0" d="m1152 768h-1152v-539.1h1152z"/>
+		<text id="Template
+" style="transform: matrix(16,0,0,16,207.285,181.308)" >
+			<tspan x="0" y="0" class="t1">Template
+</tspan>
+		</text>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s2" d="m685 617.6h-332.6v-225.6h332.6z"/>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s3" d="m428 561l51.1-51.1-50.3-50.2"/>
+				<path id="&lt;Path&gt;" class="s3" d="m479.1 509.9l-182.9 0.4"/>
+			</g>
+			<path id="&lt;Path&gt;" class="s4" d="m641.5 561h-128v-112.4h128z"/>
+			<path id="&lt;Path&gt;" class="s2" d="m810.5 617.6h-66.1v-225.6h66.1z"/>
+		</g>
+	</g>
+</svg>
