@@ -1,0 +1,27 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1152 768" width="1152" height="768">
+	<title>default-endpoint-ai</title>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #955aa4 } 
+		.t1 { font-size: 12px;fill: #9b9c9f;font-weight: 400;font-family: "Roboto-Regular", "Roboto" } 
+		.s2 { fill: none;stroke: #fefefe;stroke-miterlimit:10;stroke-width: 24 } 
+		.s3 { fill: none;stroke: #fefefe;stroke-miterlimit:10;stroke-width: 32 } 
+		.s4 { fill: #fefefe } 
+	</style>
+	<g id="Layer 1">
+		<path id="&lt;Path&gt;" class="s0" d="m1152 768h-1152v-539.1h1152z"/>
+		<text id="Default
+" style="transform: matrix(16,0,0,16,264.137,181.308)" >
+			<tspan x="0" y="0" class="t1">Default
+</tspan>
+		</text>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s2" d="m837.1 646.8h-462.3v-313.5h462.3z"/>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s3" d="m480 568.1l70.9-70.9-69.8-69.8"/>
+				<path id="&lt;Path&gt;" class="s3" d="m550.9 497.2l-254.2 0.6"/>
+			</g>
+			<path id="&lt;Path&gt;" class="s4" d="m776.8 568.1h-178v-156.1h178z"/>
+		</g>
+	</g>
+</svg>

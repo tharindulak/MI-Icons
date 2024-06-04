@@ -1,0 +1,34 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1152 768" width="1152" height="768">
+	<title>recipientlist-endpoint-ai</title>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #955aa4 } 
+		.t1 { font-size: 11px;fill: #9b9c9f;font-weight: 400;font-family: "Roboto-Regular", "Roboto" } 
+		.s2 { fill: none;stroke: #fefefe;stroke-miterlimit:10;stroke-width: 24 } 
+		.s3 { fill: #fefefe } 
+	</style>
+	<g id="Layer 1">
+		<path id="&lt;Path&gt;" class="s0" d="m1152 768h-1152v-539.1h1152z"/>
+		<text id="Recipient List
+" style="transform: matrix(16,0,0,16,39.746,181.308)" >
+			<tspan x="0" y="0" class="t1">Recipient List
+</tspan>
+		</text>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s2" d="m826.4 443.1h-224.2v-152.1h224.2z"/>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s2" d="m624.3 408.4l40.5-39.9-39.8-39.3"/>
+				<path id="&lt;Path&gt;" class="s2" d="m664.2 368.3l-238 0.5"/>
+			</g>
+			<path id="&lt;Path&gt;" class="s3" d="m782.8 398.8h-68.5v-60.1h68.5z"/>
+			<path id="&lt;Path&gt;" class="s2" d="m829.9 675.2h-224.2v-152.1h224.2z"/>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s2" d="m654.3 638.1l24.6-39.9-24.2-39.4"/>
+				<path id="&lt;Path&gt;" class="s2" d="m678.9 598.2l-252.2 0.8"/>
+			</g>
+			<path id="&lt;Path&gt;" class="s2" d="m438.2 368.6v229.9"/>
+			<path id="&lt;Path&gt;" class="s2" d="m428.3 483.6h-78.6"/>
+			<path id="&lt;Path&gt;" class="s3" d="m782.8 629.2h-68.5v-60.1h68.5z"/>
+		</g>
+	</g>
+</svg>

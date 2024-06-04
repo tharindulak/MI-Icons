@@ -1,0 +1,30 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1152 768" width="1152" height="768">
+	<title>wsdl-endpoint-ai</title>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #955aa4 } 
+		.t1 { font-size: 11px;fill: #9b9c9f;font-weight: 400;font-family: "Roboto-Regular", "Roboto" } 
+		.s2 { fill: none;stroke: #fefefe;stroke-miterlimit:10;stroke-width: 24 } 
+		.s3 { fill: none;stroke: #fefefe;stroke-miterlimit:10;stroke-width: 32 } 
+	</style>
+	<g id="Layer 1">
+		<path id="&lt;Path&gt;" class="s0" d="m1152 768h-1152v-539.1h1152z"/>
+		<text id="WSDL
+" style="transform: matrix(16,0,0,16,337.906,181.308)" >
+			<tspan x="0" y="0" class="t1">WSDL
+</tspan>
+		</text>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s2" d="m819.4 634.4h-283.5v-283.5h283.5z"/>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s3" d="m428 561l51.1-51.1-50.3-50.2"/>
+				<path id="&lt;Path&gt;" class="s3" d="m479.1 509.9l-182.9 0.4"/>
+			</g>
+			<path id="&lt;Path&gt;" class="s2" d="m584 413l125.2-1.2"/>
+			<path id="&lt;Path&gt;" class="s2" d="m584.6 470.9l196.4-1.9"/>
+			<path id="&lt;Path&gt;" class="s2" d="m585.1 533.2h48.9"/>
+			<path id="&lt;Path&gt;" class="s2" d="m654 533.8l125.2-1.2"/>
+			<path id="&lt;Path&gt;" class="s2" d="m585.7 588.8l125.2-1.2"/>
+		</g>
+	</g>
+</svg>

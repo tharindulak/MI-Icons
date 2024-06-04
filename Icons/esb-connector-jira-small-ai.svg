@@ -1,0 +1,31 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+	<title>esb-connector-jira-small-ai</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-168.133,168.133,-91.528,-91.528,132.92,2.157)">
+			<stop offset=".18" stop-color="#315aa8"/>
+			<stop offset="1" stop-color="#497bbe"/>
+		</linearGradient>
+		<linearGradient id="g2" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(167.501,-167.501,90.943,90.943,669.783,803.866)">
+			<stop offset=".18" stop-color="#315aa8"/>
+			<stop offset="1" stop-color="#497bbe"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: #497bbe } 
+		.s1 { fill: url(#g1) } 
+		.s2 { fill: url(#g2) } 
+		.s3 { fill: #fefefe } 
+		.s4 { fill: #497bbd;stroke: #497bbd;stroke-miterlimit:10;stroke-width: 16 } 
+	</style>
+	<g id="Layer 1">
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="s0" d="m701.8 421.4l-301.8 301.8-112.6-112.6-189.2-189.2c-9.9-9.9-9.9-25.9 0-35.8l94.7-94.7 207.1-207.1 26.7 26.7 275.1 275.1c9.9 9.9 9.9 25.9 0 35.8zm-207.3-17.9l-94.5-94.6-94.5 94.6 94.5 94.5z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m400 308.9c-61.9-61.8-62.2-162.1-0.7-224.4l-206.8 206.8 112.6 112.6z"/>
+			<path id="&lt;Path&gt;" class="s2" d="m494.8 403.2l-94.8 94.8c62.2 62.1 62.2 162.9 0.1 225.1q-0.1 0-0.1 0.1l207.4-207.4z"/>
+		</g>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s3" d="m612.2 475.1c-84.7 0-153.4 68.7-153.4 153.4 0 84.7 68.7 153.4 153.4 153.4 84.7 0 153.3-68.7 153.3-153.4 0-84.7-68.6-153.4-153.3-153.4z"/>
+			<path id="&lt;Path&gt;" class="s4" d="m728.6 628.5c0 66-53.7 119.6-119.7 119.6-25.1 0-49.1-7.6-69.5-22.2-3.2-2.3-3.9-6.8-1.6-10 2.3-3.3 6.8-4 10-1.7 17.9 12.8 39.1 19.5 61.1 19.5 58.1 0 105.3-47.2 105.3-105.2 0-58.1-47.2-105.3-105.3-105.3-55.6 0-101.3 43.4-105 98.1h50.6c3.5-27 26.6-47.8 54.4-47.8 4 0 7.2 3.2 7.2 7.2v14.7h45.6c3.9 0 7.2 3.3 7.2 7.2 0 4-3.3 7.2-7.2 7.2h-45.6v37.3h45.6c3.9 0 7.2 3.2 7.2 7.2 0 4-3.3 7.2-7.2 7.2h-45.6v14.8c0 3.9-3.2 7.2-7.2 7.2-27.8 0-50.9-20.9-54.4-47.8h-58c-4 0-7.2-3.3-7.2-7.2 0-66 53.7-119.7 119.6-119.7 66 0 119.7 53.7 119.7 119.7z"/>
+		</g>
+	</g>
+</svg>
